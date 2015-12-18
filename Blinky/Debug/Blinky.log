@@ -1,0 +1,35 @@
+﻿Build started 18/12/2015 18:55:43.
+     1>Project "c:\Users\TAN\documents\visual studio 2013\Projects\Blinky\Blinky\Blinky.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"c:\Users\TAN\documents\visual studio 2013\Projects\Blinky\packages\cpprestsdk.2.2.0\build\native\include\\" /I"c:\Users\TAN\documents\visual studio 2013\Projects\Blinky\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\include\avr" /I"c:\Users\TAN\documents\visual studio 2013\Projects\Blinky\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\include" /I"c:\Users\TAN\documents\visual studio 2013\Projects\Blinky\packages\Microsoft.IoT.SDKFromArduino.1.0.0\build\native\\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D HAS_CPPRESTSDK /D ARDUINO=100 /D INTEL_GALILEO /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /arch:IA32 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /d2nolock Main.cpp
+         Main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\TAN\documents\visual studio 2013\Projects\Blinky\Debug\Blinky.exe" /INCREMENTAL /NOLOGO "c:\Users\TAN\documents\visual studio 2013\Projects\Blinky\packages\cpprestsdk.2.2.0\build\native\lib\Win32\v120\Debug\Desktop\cpprest120d_2_2.lib" mincore.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\Users\TAN\documents\visual studio 2013\Projects\Blinky\Debug\Blinky.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Users\TAN\documents\visual studio 2013\Projects\Blinky\Debug\Blinky.lib" /MACHINE:X86 -d2:-nolock /NODEFAULTLIB:ole32.lib /NODEFAULTLIB:kernel32.lib /NODEFAULTLIB:user32.lib /NODEFAULTLIB:advapi32.lib Debug\Main.obj
+         Debug\stdafx.obj
+         Debug\LiquidCrystal.obj
+         Debug\Print.obj
+         Debug\Stepper.obj
+         Debug\Stream.obj
+         Debug\WString.obj
+         Debug\eeprom.obj
+         Debug\Servo.obj
+         Debug\HardwareSerial.obj
+         Debug\NetworkSerial.obj
+         Debug\PulseIn.obj
+         Debug\DmapSupport.obj
+         Debug\GalileoPins.obj
+         Debug\GpioController.obj
+         Debug\I2cController.obj
+         Debug\PCA9685Support.obj
+         Debug\PCAL9535ASupport.obj
+         Debug\CY8C9540ASupport.obj
+         Debug\Spi.obj
+         Debug\SpiController.obj
+         Debug\WInterrupt.obj
+         Debug\arduino.obj
+         Blinky.vcxproj -> c:\Users\TAN\documents\visual studio 2013\Projects\Blinky\Debug\Blinky.exe
+     1>Done Building Project "c:\Users\TAN\documents\visual studio 2013\Projects\Blinky\Blinky\Blinky.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.85
